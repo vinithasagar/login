@@ -1,0 +1,60 @@
+body{
+   
+    background-image: linear-gradient(100deg, skyblue,lightpink);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    
+   
+}
+#container{
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid white;
+    height: 26rem;
+    width: 17rem;
+    align-content: center;
+    border-radius: 1rem;
+    color: white;
+    box-shadow: 5px 5px;
+
+   
+}
+h2{
+    color:white;
+}
+#container1{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+#username{
+    width: 12rem;
+    height: 1.5rem;
+    /* border-radius: 0.5rem; */
+    background-color: inherit;
+    border: NONE;
+    border-bottom: 1.5px solid rgb(205, 144, 153);
+
+}
+button{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    background-color: whitesmoke;
+    border: 1.5px solid rgb(205, 144, 153);
+    
+}
+#pass{
+    width: 12rem;
+    height: 1.5rem;
+    background-color: inherit;
+    border:none;
+    border-bottom: 1.5px solid rgb(205, 144, 153);
+}
+input:focus{
+    outline: none;
+}
